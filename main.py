@@ -2,8 +2,8 @@
 
 def encode(password):
     encoded_key = ''
-    for i in range(len(password)
-	altered_digit = int(password[i] + 3
+    for i in range(len(password)):
+	altered_digit = int(password[i]) + 3
         encoded_key += str(altered_digit)
     return encoded_key
 
